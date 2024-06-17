@@ -1,0 +1,26 @@
+/* src/components/Main.css */
+.main {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.MainHeadings{
+  font-size: 30px;
+  padding: 10px;
+}
+
+#firstHeading{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .MainHeadings{
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  #firstHeading{
+    margin-top: 40px;
+  }
+}
+

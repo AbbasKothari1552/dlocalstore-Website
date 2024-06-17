@@ -1,0 +1,32 @@
+/* src/components/RegisterForm.css */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.google-signin {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  button.google-signin:hover {
+    background-color: #357ae8;
+  }
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }  
