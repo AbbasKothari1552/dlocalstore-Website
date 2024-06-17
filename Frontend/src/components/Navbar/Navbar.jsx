@@ -2,13 +2,13 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ onRegisterClick , onLoginClick }) => {
   return (
     <header className="header">
       <div className="logo">dLocalStore</div>
       <nav className="nav">
-        <a href="#login">Login</a>
-        <a href="#login">Register</a>
+      <button onClick={onLoginClick} className="nav-button">Login</button>
+        <button onClick={onRegisterClick} className="nav-button">Register</button>
       </nav>
     </header>
   );
